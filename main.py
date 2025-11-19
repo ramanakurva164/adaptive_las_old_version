@@ -11,7 +11,7 @@ app = FastAPI(title='Adaptive Learning Orchestrator - Assessment Service')
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['localhost', 'http://localhost:3000', 'https://localhost:3000'],
+    allow_origins=['https://adaptive-frontend-wxhf.onrender.com'],
     allow_methods=['*'],
     allow_headers=['*'],
 )
